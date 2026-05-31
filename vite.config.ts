@@ -3,13 +3,12 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig, loadEnv} from 'vite';
 
-export default defineConfig(({mode}) => {npm install -g vercel
-vercel
+export default defineConfig(({mode}) => {
   const env = loadEnv(mode, process.cwd(), '');
   const geminiApiKey = env.VITE_GEMINI_API_KEY || env.GEMINI_API_KEY || '';
   const geminiModel = 'gemini-3.1-flash-lite';
 
-  return {
+  return {  
     base: '/TruthLens/',
     plugins: [
       react(),
