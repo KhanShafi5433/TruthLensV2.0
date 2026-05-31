@@ -1,0 +1,6 @@
+{
+  "name": "TruthLens",
+  "description": "AI-assisted deepfake scam detection and awareness platform to identify manipulated media, AI scam files, fake voice messages, and social engineering attempts.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
