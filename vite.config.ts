@@ -9,7 +9,7 @@ export default defineConfig(({mode}) => {
   const geminiModel = 'gemini-3.1-flash-lite';
 
   return {  
-    base: '/TruthLens/',
+    base: '/',
     plugins: [
       react(),
       tailwindcss(),
