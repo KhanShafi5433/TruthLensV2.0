@@ -476,7 +476,7 @@ export default function ChatAssistantScreen({ onGoBack }: ChatAssistantScreenPro
           </button>
         </div>
         <p className="text-[9px] text-slate-600 font-mono mt-2">
-          Ai-Shafi • TruthLens AI • Offline-capable • Privacy-focused
+          Ai-Shafi • TruthLens V2.0 AI • Offline-capable • Privacy-focused
         </p>
       </div>
     </div>

@@ -14,7 +14,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
     "Checking audio voiceprint classifiers...",
     "Securing communication channels...",
     "Mounting deepfake neural pattern decoders...",
-    "System ready. Welcome to TruthLens."
+    "System ready. Welcome to TruthLens V2.0."
   ];
 
   useEffect(() => {

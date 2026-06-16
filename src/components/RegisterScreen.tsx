@@ -94,7 +94,7 @@ export default function RegisterScreen({
         </h2>
 
         <p className="text-sm text-slate-400 mt-2">
-          Register to access TruthLens AI protection
+          Register to access TruthLens V2.0 AI protection
         </p>
       </div>
 

@@ -179,7 +179,7 @@ export default function LoginScreen({ onLoginSuccess, onGoToRegister }: LoginScr
       {/* Bottom Footer Area */}
       <div className="pb-4">
         <div className="flex justify-center items-center text-xs text-slate-400 gap-1">
-          <span>New to TruthLens safety?</span>
+          <span>New to TruthLens V2.0 safety?</span>
           <button
             id="go-to-register-btn"
             type="button"

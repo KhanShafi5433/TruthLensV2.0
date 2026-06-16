@@ -121,7 +121,7 @@ export default function AndroidFrame({
           </div>
           <div className="flex flex-col">
             <div className="flex items-center gap-2">
-              <h1 className="text-xl font-display font-bold text-white tracking-tight">TruthLens</h1>
+              <h1 className="text-xl font-display font-bold text-white tracking-tight">TruthLens V2.0</h1>
               <span className="px-1.5 py-0.5 text-[8px] uppercase tracking-wider font-mono bg-blue-950 border border-blue-800 text-blue-400 rounded-md">
                 PROTOTYPE V{APP_VERSION}
               </span>
@@ -292,7 +292,7 @@ export default function AndroidFrame({
                     className="absolute inset-0 bg-black z-49 flex flex-col items-center justify-center p-6 text-center select-none"
                   >
                     <Power className="w-8 h-8 text-red-500 opacity-60 animate-pulse mb-3" />
-                    <p className="text-xs text-slate-500 font-mono">TruthLens Screen Off</p>
+                    <p className="text-xs text-slate-500 font-mono">TruthLens V2.0 Screen Off</p>
                     <button 
                       id="turn-on-btn"
                       onClick={() => setIsPoweredOn(true)}

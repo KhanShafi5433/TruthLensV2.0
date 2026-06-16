@@ -92,7 +92,7 @@ export default function AnalysisLoadingScreen({
       <div className="flex-1 flex flex-col items-center justify-center my-auto px-4 py-6 gap-6">
         <div className="relative w-36 h-36 flex items-center justify-center">
           <motion.div
-            animate={{ rotate: 360 }}
+            animate={{ rotate: 360 }} 
             transition={{ repeat: Infinity, duration: 4, ease: "linear" }}
             className="absolute inset-0 rounded-full border border-dashed border-blue-500/20"
           />
@@ -190,7 +190,7 @@ export default function AnalysisLoadingScreen({
 
       <div className="space-y-2 border-t border-slate-900 pt-3">
         <div className="flex justify-between text-[9px] text-slate-600 font-bold tracking-wider">
-          <span>TRUTHLENS · GEMINI</span>
+          <span>TRUTHLENS V2.0 · GEMINI</span>
           <span>{isImageAnalysis ? "VISION" : "TEXT"}</span>
         </div>
 
